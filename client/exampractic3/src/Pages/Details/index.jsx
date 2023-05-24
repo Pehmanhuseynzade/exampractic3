@@ -50,8 +50,8 @@ function Details() {
               >
                 {prod.name}
               </p>
-              <p className="prghov">{prod.price}</p>
-              <p>{prod.desc}</p>
+              <p className="price">Price:{prod.price}</p>
+              <p className="desc">{prod.desc}</p>
               <div style={{ display: "flex", gap: "20px" }}></div>
             </Card>
      </section>

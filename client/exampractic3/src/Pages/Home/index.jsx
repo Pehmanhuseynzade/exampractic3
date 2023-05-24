@@ -88,6 +88,7 @@ function Home() {
               cover={<img alt="example" src={d.imageURL} />}
             >
               <Link to={`/detail/${d._id}`}><p
+              className="inp"
                 style={{
                   width: "100px",
                   height: "30px",
@@ -99,8 +100,8 @@ function Home() {
               >
                 {d.name}
               </p></Link>
-              <p className="prghov">{d.price}</p>
-              <p>{d.desc}</p>
+              <p >Price: {d.price}</p>
+              <p className="desc">{d.desc}</p>
               <button onClick={()=>handleDelete(d._id)} className="btndelete">DELETE</button>
               <div style={{ display: "flex", gap: "20px" }}></div>
             </Card>
