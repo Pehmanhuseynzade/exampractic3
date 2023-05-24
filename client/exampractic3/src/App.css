@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+li{
+  color: black;
+  transition: .5s;
+}
+li:hover{
+  color: red;
+}
+header{
+  padding: 30px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 999;
+  background-color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.image-hero{
+  margin-top: 175px;
+  background-color: #f6214b;
+  height: 77vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-hero p{
+  font-size: 30px;
+}
+.image-hero h1{
+  font-size: 60px;
+}
+.bookbtn{
+  width: 160px;
+  height: 40px;
+  font-weight: bold;
+  border: none;
+}
+.bookbtn:hover{
+  background-color: #f6214b;
+  color: white;
+  border: 1px solid white;
+}
+
+.firsttitle{
+  text-align: center;
+  padding: 50px;
+}
+/* .bookbtn{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+
+} */
+
+.card{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.boxess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 50px;
+}
+.twocards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  bottom: 0;
+}
+.icons{
+  display: flex;
+  font-size: 18px;
+  gap: 20px;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  background-color: #f6214b;
+  color: white;
+  border: none;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
+.btndiv{
+  display: flex;
+  gap: 10px;
+}
+.twocards p{
+  font-size: 15px;
+  color: gray;
+}
+.fa-facebook, .fa-twitter,.fa-volleyball,.fa-behance{
+  background-color: gray;
+  padding: 10px;
+}
+.fa-facebook:hover, .fa-twitter:hover,.fa-volleyball:hover, .fa-behance:hover{
+  background-color: #f6214b;
+}
+.search{
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btndelete{
+  margin-top: 10px;
+  width: 130px;
+  height: 35px;
+  border: none;
+  background-color: red;
+}
+.detailsec{
+  margin-top: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 200px;
+}
